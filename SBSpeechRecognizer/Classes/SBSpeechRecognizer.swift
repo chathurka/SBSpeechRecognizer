@@ -74,9 +74,9 @@ public class SBSpeechRecognizer: NSObject, SFSpeechRecognizerDelegate {
         }
         
         let audioSession = AVAudioSession.sharedInstance()
-        try audioSession.setCategory(AVAudioSessionCategoryRecord)
-        try audioSession.setMode(AVAudioSessionModeMeasurement)
-        try audioSession.setActive(true, with: .notifyOthersOnDeactivation)
+        try audioSession.setCategory(AVAudioSession.Category.record)
+        try audioSession.setMode(AVAudioSession.Mode.measurement)
+        //try audioSession.setActive(true, withFlags: .notifyOthersOnDeactivation)
         
         recognitionRequest = SFSpeechAudioBufferRecognitionRequest()
         
