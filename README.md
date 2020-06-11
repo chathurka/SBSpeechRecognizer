@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 SBSpeechRecognizer is available through [CocoaPods](http://cocoapods.org) although it isn't currently part of the master list of pods. To install it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SBSpeechRecognizer', :git => 'https://github.com/simonbromberg/SBSpeechRecognizer'
+pod 'SBSpeechRecognizer', :git => 'https://github.com/chathurka/SBSpeechRecognizer'
 ```
 
 ## License
